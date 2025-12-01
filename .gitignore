@@ -1,0 +1,30 @@
+# R related
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+.Rapp.history
+.Renviron
+.Rprofile
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (optional uncomment if you don't want to track)
+#.vscode/
+
+# Data directories (adjust if you want to version raw data)
+# Keep placeholder files (e.g., .gitkeep) if needed
+/data/raw/
+/data/intermediate/
+/data/processed/
+/models/
+/reports/
+
+# Cache / temp
+*.tmp
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
