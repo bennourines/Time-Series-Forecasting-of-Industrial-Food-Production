@@ -69,14 +69,6 @@ You can work in either R directly or via the Jupyter notebook interface (with an
 - `strucchange`  
 - (Optional) `ggplot2`, `dplyr`, `readr`, `lubridate`, `TSstudio`, `xts`, `zoo`  
 
-**Install in R:**
-
-```r
-install.packages(c(
-  "forecast", "tseries", "psych", "strucchange",
-  "ggplot2", "dplyr", "readr", "lubridate"
-))
-
 ---
 
 ## 6. Extending the Project
@@ -97,3 +89,4 @@ Potential enhancements:
 - `forecast` package documentation  
 - `strucchange` package vignettes  
 - Standard Box-Jenkins methodology resources  
+
