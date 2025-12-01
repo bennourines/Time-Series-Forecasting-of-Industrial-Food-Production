@@ -2,7 +2,6 @@
 
 Forecasting monthly industrial food production using R, ARIMA/SARIMA models, and structural break detection.
 
-![Project Banner](banner.png)
 
 Monthly industrial food production is analyzed and forecasted using advanced time-series techniques in R. This repository (currently centered on the notebook `Times_Series_Assesment.ipynb`) provides a reproducible workflow: data preparation, exploratory analysis, decomposition, structural break detection, ARIMA-based modeling, and forward forecasting.
 
@@ -71,21 +70,30 @@ You can work in either R directly or via the Jupyter notebook interface (with an
 - (Optional) `ggplot2`, `dplyr`, `readr`, `lubridate`, `TSstudio`, `xts`, `zoo`  
 
 **Install in R:**
-```r
-install.packages(c("forecast","tseries","psych","strucchange","ggplot2","dplyr","readr","lubridate"))
 
+```r
+install.packages(c(
+  "forecast", "tseries", "psych", "strucchange",
+  "ggplot2", "dplyr", "readr", "lubridate"
+))
+
+---
 
 ## 6. Extending the Project
-Enhancement ideas:
-- Incorporate exogenous regressors (XREG) — macroeconomic indicators, commodity prices.
-- Try advanced models: TBATS, ETS, Prophet, or neural approaches (RNN/LSTM via `keras`).
-- Add rolling-origin cross-validation for more robust performance evaluation.
-- Implement automated report generation (R Markdown → HTML/PDF).
-- Deploy forecasts via an API or dashboard (e.g., Shiny app).
+
+Potential enhancements:
+
+- Use exogenous regressors (XREG) such as commodity prices or macro indicators  
+- Test advanced forecasting models: TBATS, ETS, Prophet, LSTM/RNN (via `keras`)  
+- Add rolling-origin cross-validation for robust evaluation  
+- Automate reporting using R Markdown (HTML/PDF)  
+- Deploy results in a Shiny app or API  
+
+---
 
 ## 7. References
-- Hyndman, R.J. & Athanasopoulos, G. (Forecasting: Principles and Practice).
-- `forecast` R package documentation.
-- `strucchange` package vignette.
-- Time Series Analysis texts (Box-Jenkins methodology).
 
+- Hyndman, R.J. & Athanasopoulos, G. *Forecasting: Principles and Practice*  
+- `forecast` package documentation  
+- `strucchange` package vignettes  
+- Standard Box-Jenkins methodology resources  
